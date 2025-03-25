@@ -1,6 +1,7 @@
 # SGH
 
 **How to run a project with a benchmark strategy **
+
 In the directory ...\CS-AUT\software\PROCSS_SIMULATION\process\codes\ there is a model code 
 decision_engine.sas (100% acceptance), which should be modified by the student. This code refers to 
 directory of subdirectories ...\CS-AUT\software\PROCSS_SIMULATION\process\calibration\, in which 
@@ -17,6 +18,7 @@ AUT\software\PROCSS_SIMULATION\process\reports\ and is named profit_1975_1987.ht
 
 **How to calibrate models for PD and PR and how to determine cut-off 
 points  **
+
 If all models are already built, there can be more than four. Each model, with its code 
 scoring_code.sas, should be copied to the appropriate subdirectory in the directory ...\CS
 AUT\software\PROCSS_SIMULATION\process\calibration\. The folder also contains the code 
@@ -30,6 +32,7 @@ procedure is used and various groups of applications are analysed for the first 
 based on probability parameters. 
 
 **Model construction and documentation **
+
 The model should be built on a properly selected sample. Always build on data from the period 1975
 87 (condition in SAS 4GL '197501'<=period<='198712'), and on properly selected product criteria 
 (type product='css' or product='ins') and decision (decision='A'). In case of Python the same criteria 
@@ -54,6 +57,7 @@ see directory …\CS
 AUT\materials_all\example_of_project_documentation\example_of_model_PYTHON\.
 
 **Strategy building and documentation **
+
 At the beginning, you need to collect all models, place the codes for scoring in the appropriate 
 folders and perform calibration. Then define the correct rules and save them in the 
 decision_engine.sas code. The rule "998 not active customer" must not be changed. Rules may be 
