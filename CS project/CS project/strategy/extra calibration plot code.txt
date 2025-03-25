@@ -1,0 +1,11 @@
+proc sgplot data=cash_cum;
+   scatter x=pd_css y=profit_cum / markerattrs=(color=blue symbol=circle) legendlabel="PD CSS";
+   scatter x=ar y=profit_cum / x2axis markerattrs=(color=red symbol=triangle) legendlabel="AR";
+   xaxis label="Probability of Default (PD CSS)" grid values=(0 to 0.4 by 0.05);
+   x2axis label="Acceptance Rate (AR)" grid values=(0 to 0.4 by 0.05);
+   yaxis label="Cumulative Profit"
+   		 grid 
+         values=(0 to 1800000 by 200000);
+   keylegend / location=inside position=topright across=1;
+   where pd_css < 0.4;
+run;
