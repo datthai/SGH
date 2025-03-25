@@ -4,3 +4,4 @@ List of subjects:
 1. Bank Loan Default Prediction | Data Mining, SAS, Python
 2. Stock Price Prediction using LSTM model | Deep Learning, Python, TensorFlow/Keras
 3. Sentiment Analysis of Movie Reviews  | Big Data, Spark, TF-IDF
+4. Master Thesis: Building a financial Data Lake using cloud computing | AWS, Databricks
