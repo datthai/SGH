@@ -1,0 +1,18 @@
+title = "Master Project"
+
+[owner]
+name = "Uladzilsau Darhevich"
+dob = 1991-01-28
+
+[dev]
+path_to_logs = "logs/"
+path_data_lake = "data/my_database"
+db_name = "darhevich_data_lake"
+ohlc_table = "ohlc_data"
+path_raw_hist_data = "data/raw_hist_data"
+ohlc_path = "data/ohlc_data"
+aws_profile = "master"
+aws_bucket = "kosmobiker-masterproject"
+athena_output = "data/athena_tmp"
+list_of_coins = ["BTC", "ETH", "BUSD", "USDT", "XRP", "SOL", "BNB", "DOT", "SHIB", "LTC"]
+list_of_currencies = ['USD', 'BTC', 'EUR', 'JPY']
